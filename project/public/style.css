@@ -1,0 +1,45 @@
+#heading h3{
+    color: #750075;
+}
+
+#text-content span{
+    font-size: 18px;
+}
+
+#text-content span a{
+    text-decoration: none;
+    color:#ff00ff;
+}
+
+.form-control:focus {
+    border-color: fuchsia;
+    box-shadow: 0 0 0 0.2rem rgba(117,0,117,0.2)
+}
+
+#login{
+    background: rgb(117,0,117);
+    background: linear-gradient(345deg, rgba(117,0,117,0.8) 0%, rgba(255,0,255,0.8) 44%);
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(117,0,117,0.4)
+  }
+
+#sign-in a{
+    text-decoration: none;
+    color: fuchsia;
+}
+
+.error img{
+    background-color: gold;
+}
+
+
+.linking-div span a{
+    text-decoration: none;
+    color: fuchsia;
+    font-size: 18px;
+}

@@ -1,0 +1,46 @@
+<div class="container p-4">
+        <div class="row">
+            <div id="heading" class="col-lg-12 mb-3">
+                <h3 class="display-5 text-center">Login</h3>
+            </div>
+
+            <div id="text-content" class="col-lg-6 m-auto text-center mb-3 p-3">
+                <span>Welcome Back !! Login to access our services.</span>
+                <br>
+                <span>Did you <a href="">Forget your password?</a></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <form action="/login" method="post">
+                <div class="col-lg-4 m-auto p-3">
+                {{#if msg}}
+                    <div class="alert alert-success">
+                        {{msg}}
+                    </div>
+                {{else if msg2}}
+                    <div class="alert alert-danger">
+                        {{msg2}}
+                    </div>
+                {{/if}}
+                <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="num">
+                <label for="floatingInput">Contact Number</label>
+                </div>
+                <div class="form-floating mb-5">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="pass">
+                <label for="floatingPassword">Password</label>
+                </div>
+                <div class="d-grid gap-2 col-11 mx-auto">
+                    <button id="login" class="btn p-3" type="submit">Button</button>
+                </div>
+            </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div id="sign-in" class="col-lg-12 text-center">
+                <span><a href="/register">Create Account</a></span>
+            </div>
+        </div>
+    </div>
